@@ -1,0 +1,3 @@
+UPDATE users 
+SET name = {{nameInput.text}} 
+WHERE id = {{usersTable.selectedRow.id}} 
